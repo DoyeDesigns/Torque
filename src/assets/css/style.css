@@ -58,7 +58,7 @@ p{
 .steps {
     width: 25.0475rem;
     height: 24.5rem;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: .0625rem .0625rem .25rem rgba(0, 0, 0, 0.25);
     border-radius: .9375rem;
 }
 
@@ -78,5 +78,32 @@ p{
 
 #explore h4{
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
+}
+footer {
+    background: #FBFBFB;
+}
+
+.footer-h5 {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.form {
+    background: white;
+}
+
+footer input {
+    border: none;
+}
+
+.footer-links{
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+footer a{
+    color: #363636;
+    text-decoration: none;
+    margin-bottom: .6875rem;
 }
