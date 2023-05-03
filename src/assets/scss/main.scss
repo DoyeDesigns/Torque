@@ -1,0 +1,41 @@
+
+
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "./abstracts/variables";
+
+$utilities: (
+  "w":(
+    property:width,
+    class: w,
+    values:(
+      10: 10%,
+      20: 20%,
+      30: 30%,
+      40: 40%,
+      60: 60%,
+      70: 70%,
+      80: 80%,
+      85: 85%,
+      90: 90%
+    )
+  )
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$spacers: map-merge($spacers, $custom-spacers);
+$position-values: map-merge($position-values, $custom-position-values);
+
+
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+
+:root {
+  --bs-body-font-family: 'Poppins', sans-serif;
+  --bs-body-font-size: .9375rem;
+}

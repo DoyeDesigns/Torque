@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+#brand-name {
+    font-weight: 700;
+    font-size: 1.6473rem;
+}
+
+.nav-item a {
+    font-weight: 500;
+}
+
+#brandCatchphrase {
+    width: 23.875rem;
+}
+
+#brandCatchphrase h1 {
+    font-size: 4.2816rem;
+    font-weight: 700;
+    
+}
+
+.download {
+    font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #393939;
+}
+
+p{
+    color: #363636;
+}
+
+#social-proof {
+    background: linear-gradient(to right, hsla(225, 79%, 52%, 1) , hsla(164, 84%, 58%, 1));
+}
+
+.perks {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.perks-heading {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.section3H1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.steps {
+    width: 25.0475rem;
+    height: 24.5rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: .9375rem;
+}
+
+.steps h3 {
+    font-weight: 600;
+    font-size: 4.375rem;
+}
+
+.steps p {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+#explore {
+    margin-top: 10.3125rem;
+}
+
+#explore h4{
+    font-weight: 600;
+    font-size: 32px;
+}
